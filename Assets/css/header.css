@@ -1,0 +1,58 @@
+li img {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-list{
+    list-style: none;
+    border: 1px solid black;
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    border: 1px solid rgb(97, 97, 97);
+    background-color: rgb(148, 147, 147);
+    height: 80px;
+
+    justify-content: flex-end;
+} 
+
+.menu-list a:link {
+    color: rgb(202, 199, 199);
+    text-decoration: none;
+}
+
+.menu-list a:visited {
+    color: rgb(202, 199, 199);
+    text-decoration: none;
+}
+
+.menu-list a:hover {
+    background-color: rgb(158, 158, 158);
+}
+ .menu-list a {
+     width: 40px;
+     margin: 0;
+     padding: 30px;
+     
+ }
+
+ .twitter a:hover {
+   background-color: rgb(148, 147, 147);
+   padding:0;
+   margin-left: 20px;
+ }
+
+ .twitter a{
+    background-color: rgb(148, 147, 147);
+    padding:0;
+    margin-left: 20px;
+  }
+ 
+
