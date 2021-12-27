@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+.header{
+    position: fixed;
+    width: 100%;
+}
+
 /*Mobile*/
   @media only screen and (max-width: 400px) {
     li img {
@@ -83,6 +88,7 @@
         display: flex;
         justify-content: flex-end ;
         align-items: center;
+        font-size: 17px;
     }
     
     .header {
