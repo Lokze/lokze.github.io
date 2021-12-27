@@ -1,57 +1,207 @@
-li img {
-    width: 30px;
-    height: 30px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-.menu-list{
-    list-style: none;
-    width: 400px;
+/*Mobile*/
+  @media only screen and (max-width: 400px) {
+    li img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .menu-list{
+        list-style: none;
+        width: 400px;
+    
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: 'Roboto', bold ,sans-serif
+    }
+    
+    .header {
+        display: flex;
+        background-color: rgb(148, 147, 147);
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+    
+        justify-content: space-around;
+    } 
+    
+    .menu-list a:link {
+        color: rgb(202, 199, 199);
+        text-decoration: none;
+    }
+    
+    .menu-list a:visited {
+        color: rgb(202, 199, 199);
+        text-decoration: none;
+    }
+    
+    .menu-list a:hover {
+        background-color: rgb(158, 158, 158);
+    }
+     .menu-list a {
+         width: 40px;
+         margin: 10px;
+         padding: 0;
+     }
+    
+     .twitter a:hover {
+       background-color: rgb(148, 147, 147);
+       padding:0;
+       margin-left: 20px;
+     }
+    
+     .twitter a{
+        background-color: rgb(148, 147, 147);
+        padding:0;
+        margin-left: 20px;
+      }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      .header p {
+        padding-right: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        white-space: nowrap;
+      }
 
-}
-
-.header {
-    display: flex;
-    border: 1px solid rgb(97, 97, 97);
-    background-color: rgb(148, 147, 147);
-    height: 80px;
-
-    justify-content: flex-end;
-} 
-
-.menu-list a:link {
-    color: rgb(202, 199, 199);
-    text-decoration: none;
-}
-
-.menu-list a:visited {
-    color: rgb(202, 199, 199);
-    text-decoration: none;
-}
-
-.menu-list a:hover {
-    background-color: rgb(158, 158, 158);
-}
- .menu-list a {
-     width: 40px;
-     margin: 0;
-     padding: 30px;
-     
- }
-
- .twitter a:hover {
-   background-color: rgb(148, 147, 147);
-   padding:0;
-   margin-left: 20px;
- }
-
- .twitter a{
-    background-color: rgb(148, 147, 147);
-    padding:0;
-    margin-left: 20px;
   }
- 
+
+  /*Deskop*/
+ @media only screen and (min-width: 961px) {
+
+    li img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-list{
+        list-style: none;
+        width: 400px;
+    
+        display: flex;
+        justify-content: flex-end ;
+        align-items: center;
+    }
+    
+    .header {
+        display: flex;
+        background-color: rgb(148, 147, 147);
+        height: 80px;
+        font-family: 'Roboto', sans-serif;
+
+        justify-content: space-around;
+    } 
+    
+    .menu-list a:link {
+        color: rgb(202, 199, 199);
+        text-decoration: none;
+    }
+    
+    .menu-list a:visited {
+        color: rgb(202, 199, 199);
+        text-decoration: none;
+    }
+    
+    .menu-list a:hover {
+        background-color: rgb(158, 158, 158);
+    }
+     .menu-list a {
+         width: 40px;
+         margin: 0;
+         padding: 30px;
+     }
+    
+     .twitter a:hover {
+       background-color: rgb(148, 147, 147);
+       padding:0;
+       margin-left: 20px;
+     }
+    
+     .twitter a{
+        background-color: rgb(148, 147, 147);
+        padding:0;
+        margin-left: 20px;
+      }
+
+      .header p {
+        padding-right: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        white-space: nowrap;
+        font-size: 30px;
+      }
+    
+ }
+
+ /*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    li img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .menu-list{
+        list-style: none;
+        width: 400px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .header {
+        display: flex;
+        background-color: rgb(148, 147, 147);
+        height: 80px;
+        font-family: 'Roboto', sans-serif;
+        
+        justify-content: space-around;
+    } 
+    
+    .menu-list a:link {
+        color: rgb(202, 199, 199);
+        text-decoration: none;
+    }
+    
+    .menu-list a:visited {
+        color: rgb(202, 199, 199);
+        text-decoration: none;
+    }
+    
+    .menu-list a:hover {
+        background-color: rgb(158, 158, 158);
+    }
+     .menu-list a {
+         width: 40px;
+         margin: 0;
+         padding: 30px;
+     }
+    
+     .twitter a:hover {
+       background-color: rgb(148, 147, 147);
+       padding:0;
+       margin-left: 20px;
+     }
+    
+     .twitter a{
+        background-color: rgb(148, 147, 147);
+        padding:0;
+        margin-left: 20px;
+      }
+
+      .header p {
+        padding-right: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        white-space: nowrap;
+        font-size: 30px;
+      }
+}
 
