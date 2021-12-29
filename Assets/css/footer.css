@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/*moblie*/
+@media only screen and (max-width: 400px) {
+    .footer {
+        background-color: rgb(148, 147, 147);
+        padding: 5px;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        
+
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+        white-space:pre;
+    }
+
+    .email {
+        text-indent: 0px;
+        text-align:center;
+    }
+
+
+
+    .twitter img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .twitter {
+        padding:0;
+    }
+
+    
+    .gmail img {
+        width: 45px;
+        height: 30px;
+    }
+
+    .gmail {
+        padding:0;
+        margin-right: 5px;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    
+    .footer {
+        background-color: rgb(148, 147, 147);
+        padding: 5px;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        
+
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+        white-space:pre;
+    }
+
+    .email {
+        text-indent: 0px;
+        text-align:center;
+    }
+
+
+
+    .twitter img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .twitter{
+        padding:0;
+    }
+
+    
+    .gmail img{
+        width: 45px;
+        height: 30px;
+    }
+
+    .gmail {
+        padding:0;
+        margin-right: 5px;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+    .footer {
+        background-color: rgb(148, 147, 147);
+        padding: 5px;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        
+
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+        white-space:pre;
+    }
+
+    .email {
+        text-indent: 0px;
+        text-align:center;
+    }
+
+
+
+    .twitter img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .twitter{
+        padding:0;
+    }
+
+    
+    .gmail img{
+        width: 45px;
+        height: 30px;
+    }
+
+    .gmail {
+        padding:0;
+        margin-right: 5px;
+    }
+}
